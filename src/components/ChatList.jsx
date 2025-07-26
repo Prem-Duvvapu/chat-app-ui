@@ -12,8 +12,8 @@ function ChatList({ chats, users, activeChat, setActiveChatId }) {
                             <li
                                 key={chat.id}
                                 className={
-                                    "py-2 px-3 rounded cursor-pointer flex items-center" +
-                                    (activeChat?.id == chat.id ? "bg-blue-100" : "hover:bg-gray-200")
+                                    "py-2 px-3 rounded cursor-pointer flex items-center " +
+                                    (activeChat?.id === chat.id ? "bg-blue-100" : "hover:bg-gray-200")
                                 }
                                 onClick={() => setActiveChatId(chat.id)}
                             >
