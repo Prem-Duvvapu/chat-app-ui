@@ -8,13 +8,13 @@ const mockUsers = [
     {
         id: "u2",
         username: "User2",
-        avatar: "https://i.pravatar.cc/150?img=1",
+        avatar: "https://i.pravatar.cc/150?img=7",
         status: "offline",
     },
     {
         id: "u3",
         username: "User3",
-        avatar: "https://i.pravatar.cc/150?img=1",
+        avatar: "https://i.pravatar.cc/150?img=4",
         status: "online",
     },
 ];
