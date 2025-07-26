@@ -13,16 +13,16 @@ function MessageInput({ sendMessage }) {
     };
 
     return (
-        <form onSubmit={handleSend} className="">
+        <form onSubmit={handleSend} className="p-4 bg-white border-t flex">
             <input 
-                className=""
+                className="flex-1 p-2 border rounded focus:outline-none focus:ring"
                 placeholder="Type a message..."
                 value={value}
-                onClhange={e => setValue(e.target.value)}
+                onChange={e => setValue(e.target.value)}
             />
             <button
                 type="submit"
-                className=""
+                className="ml-2 px-4 bg-blue-600 text-white rounded hover:bg-blue-700"
             >
                 Send
             </button>

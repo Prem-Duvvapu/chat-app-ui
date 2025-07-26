@@ -18,6 +18,9 @@ const useChatData = () => {
         if (!activeChatId || !text.trim())
             return;
 
+        console.log(chats);
+        console.log(activeChatId);
+
         setChats(prevChats =>
             prevChats.map(chat =>
                 chat.id === activeChatId ? {

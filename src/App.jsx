@@ -15,8 +15,8 @@ const App = () => {
   } = useChatData();
 
   return (
-    <div>
-      <aside>
+    <div className="min-h-scrren bg-gray-100 flex">
+      <aside className="w-64 bg-white border-r">
         <div>
           {/* <ThemeToggle /> */}
           <ChatList
@@ -27,7 +27,8 @@ const App = () => {
           />
         </div>
       </aside>
-      <main>
+
+      <main className="flex-1 flex flex-col">
         <ChatWindow
           activeChat={activeChat}
           currentUser={currentUser}
